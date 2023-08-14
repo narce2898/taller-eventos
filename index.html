@@ -7,12 +7,17 @@
 
 </head>
 <body>
+
     <button id="saludarBtn">Saludar</button>
+
     <script>
         const botonSaludar = document.getElementById("saludarBtn");
         botonSaludar.addEventListener("click", () => {
-            alert("Saludar");
+            mostrarAlerta();
         });
+        function mostrarAlerta() {
+            alert("¡Hola!");
+        }
     </script>
 </body>
 </html>
