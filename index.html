@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller-eventos</title>
     <script src="eventos.js"></script>
-
+    <style>
+        .boton-container {
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
     <body>
+        <div class="boton-container">
         <button id="saludarBtn" onclick="mostrarAlerta()">Saludar</button>
-    
+        </div>
         <script>
             function mostrarAlerta() {
                 alert("¡Hola!");
